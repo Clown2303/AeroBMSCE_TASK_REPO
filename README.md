@@ -28,5 +28,6 @@ The recruitment poster didn't show on the live site. The alt text appeared in it
 
 ## Pages
 
-- Home (hero, Who We Are, What We Build, Our Achievements, Recruitment, Partner With Us)
+- Home (hero, Who We Are, What We Build, Our Achievements, Recruitment)
 - Contact (separate page)
+- Partner With Us (separate page, with partner logos grouped by category)
