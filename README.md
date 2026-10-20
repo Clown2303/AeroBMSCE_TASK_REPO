@@ -29,5 +29,4 @@ The recruitment poster didn't show on the live site. The alt text appeared in it
 ## Pages
 
 - Home (hero, Who We Are, What We Build, Our Achievements, Recruitment, Partner With Us)
-- Journey (separate page with the full milestones)
 - Contact (separate page)
