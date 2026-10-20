@@ -1,66 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="robots" content="noindex">
-<title>AeroBMSCE</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroBMSCE</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="notice">Practice website for the AeroBMSCE web development recruitment task. This is not the official AeroBMSCE website.</div>
-
-<div class="top">
-  <div class="wrap">
-    <img src="images/header-logo.png">
-    <div class="nav">
-      <a href="#">Home</a>
+  <!-- Navigation: every link jumps to a section on this page, so none can 404 -->
+  <header class="navbar">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="AeroBMSCE logo">
+    </a>
+    <nav>
+      <a href="#home">Home</a>
       <a href="#who">Who We Are</a>
-      <a href="journey.html">Journey</a>
-      <a href="partners.html">Partners</a>
-      <a href="contact.html">Contact</a>
+      <a href="#what">What We Build</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#partners">Partner With Us</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <img src="images/group.jpg" alt="AeroBMSCE team with their aircraft" class="hero-img">
+    <div class="hero-text">
+      <h1>AeroBMSCE</h1>
+      <p class="tagline">Above Gravity · Beyond Limits</p>
+      <p>One of India's longest-running competitive aerospace and UAV teams, with international flight history.</p>
     </div>
-    <div class="clear"></div>
-  </div>
-</div>
+  </section>
 
-<div class="hero">
-  <div class="box">
-    <h1>AeroBMSCE</h1>
-    <p class="tag">&bull; Above Gravity &bull; &nbsp;&nbsp;&nbsp; &bull; Beyond Limits &bull;</p>
-    <p>ONE OF INDIA’S LONGEST-RUNNING COMPETITIVE AEROSPACE &amp; UAV TEAM WITH INTERNATIONAL FLIGHT HISTORY</p>
-  </div>
-</div>
+  <!-- Who we are -->
+  <section id="who" class="block">
+    <h2>Who We Are</h2>
+    <p class="lead">
+      AeroBMSCE is the official aerospace, aeromodelling, and unmanned systems club of
+      BMS College of Engineering, operating from Propel Lab-3. Established in 2012, the club
+      brings together engineers from 10+ departments to design, build, and test advanced
+      aircraft, drones, and autonomous systems.
+    </p>
+  </section>
 
-<img class="banner" src="images/photo8.jpg">
+  <!-- What we build -->
+  <section id="what" class="block alt">
+    <h2>What We Build</h2>
+    <div class="cards">
+      <div class="card"><h3>Competitive aircraft and UAV design</h3></div>
+      <div class="card"><h3>Drone racing and autonomy</h3></div>
+      <div class="card"><h3>Industry-grade fabrication and testing</h3></div>
+      <div class="card"><h3>Talent development through real-world engineering</h3></div>
+    </div>
 
-<div class="wrap">
+    <figure class="feature-photo">
+      <img src="images/drone.jpg" alt="AeroBMSCE drone in flight">
+      <figcaption>One of our drones in flight</figcaption>
+    </figure>
+  </section>
 
-  <a name="who"></a>
-  <h4 class="sec">WHO WE ARE</h4>
-  <p>AeroBMSCE is the official aerospace, aeromodelling, and unmanned systems innovation club of BMS College of Engineering, operating from Propel Lab–3. Established in 2012, the club brings together engineers from 10+ departments to design, build, and test advanced aircraft, drones, and autonomous systems.</p>
+  <!-- Achievements -->
+  <section id="achievements" class="block">
+    <h2>Our Achievements</h2>
+    <!-- Replace these placeholders with real entries from journey.html on the broken site -->
+    <ul class="achievement-list">
+      <li>Competition result or milestone 1</li>
+      <li>Competition result or milestone 2</li>
+      <li>Competition result or milestone 3</li>
+    </ul>
+  </section>
 
-  <h4 class="sec">WHAT WE DO</h4>
-  <ul>
-    <li>Competitive aircraft &amp; UAV design</li>
-    <li>Drone racing &amp; autonomy</li>
-    <li>Industry-grade fabrication &amp; testing</li>
-    <li>Talent development through real-world engineering</li>
-  </ul>
+  <!-- Partner with us -->
+  <section id="partners" class="block alt">
+    <h2>Partner With Us</h2>
+    <p class="lead">
+      Interested in working with us? Reach out at
+      <a href="mailto:replace@example.com">replace@example.com</a>.
+    </p>
+  </section>
 
-  <h4 class="sec">WHY IT MATTERS</h4>
-  <ul>
-    <li>Engineers trained on real constraints</li>
-    <li>Talent exposure before graduation</li>
-    <li>Brand visibility in elite technical ecosystems</li>
-  </ul>
-
-  <h4 class="sec">OUR VISION</h4>
-  <p>We envision AeroBMSCE as a leading aerospace and unmanned systems research group, renowned for design excellence, innovation, and competitive success. We aim to cultivate future leaders in the aerospace and drone industry, establishing a legacy of engineering excellence that inspires students worldwide.</p>
-
-  <p style="margin-top:30px">Want to know more about what we have achieved? <a href="journey.html">Click here</a>. Interested in working with us? <a href="partners.html">Click here</a>.</p>
-
-</div>
+  <footer>
+    <p>AeroBMSCE · BMS College of Engineering · Practice website for the recruitment task</p>
+  </footer>
 
 </body>
 </html>
