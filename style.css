@@ -212,3 +212,10 @@ footer {
   margin-top: 10px;
   color: var(--text);
 }
+.achievement-list details img {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 12px 0;
+}
