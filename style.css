@@ -78,7 +78,7 @@ body {
 .hero-text {
   position: absolute;
   left: 8%;
-  bottom: 10%;
+  top: 12%;
   max-width: 560px;
   padding: 28px 32px;
   background: rgba(123, 35, 57, 0.92);
