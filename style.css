@@ -260,3 +260,26 @@ footer {
 .contact-box p {
   margin: 6px 0;
 }
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.logos img {
+  height: 60px;
+  width: auto;
+  background: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.partner-sub {
+  color: var(--gold);
+  font-family: var(--font-heading);
+  font-weight: normal;
+  font-size: 28px;
+  margin: 40px 0 16px;
+}
